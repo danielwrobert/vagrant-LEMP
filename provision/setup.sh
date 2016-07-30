@@ -1,7 +1,9 @@
 #!/bin/bash
 
+sudo apt-get update
+
 echo "Installing Git"
-apt-get install -y git-all > /dev/null
+sudo apt-get install -y git-all > /dev/null
 
 echo "Installing Nginx"
-apt-get install -y nginx > /dev/null
+sudo apt-get install -y nginx > /dev/null
