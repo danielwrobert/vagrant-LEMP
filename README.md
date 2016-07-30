@@ -17,3 +17,10 @@ Once you're set up with those, you can download the `Vagrantfile` from this repo
 After everything installs, you can run `vagrant ssh`. This will shell you in to your local Vagrant instance. Have a look around, if you'd like, but the main folder you want to be aware of is the shared directory. This directory is shared between your virtual machine and your local project directory. In this setup (and the default Vagrant setup) that is the `/vagrant` folder.
 
 That's all there is to it. Now you have a LEMP stack installed in a virtual machine and your local system environment is left untouched!
+
+## Resources
+
+* [Sitepoint - Vagrantfile Explained: Setting Up and Provisioning with Shell](https://www.sitepoint.com/vagrantfile-explained-setting-provisioning-shell/)
+* [GitHub Repo - Vagrant Base Config](https://github.com/sitepoint-editors/vagrant-base-config)
+* [Digital Ocean - How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04)
+* [How To Upgrade to PHP 7 on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04)
