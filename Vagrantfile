@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
-  config.vm.network "forwarded_port", guest: 80, host: 4000, auto_correct: true
+  config.vm.network "forwarded_port", guest: 4000, host: 4000, auto_correct: true
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -48,8 +48,8 @@ Vagrant.configure(2) do |config|
      vb.name = "Vagrant LEMP Stack"
 
      # Customize the amount of memory on the VM:
-     #vb.memory = "1024"
-     vb.customize ["modifyvm", :id, "--memory", "1024"]
+     vb.memory = "1024"
+     #vb.customize ["modifyvm", :id, "--memory", "1024"]
    end
 
   # View the documentation for the provider you are using for more
