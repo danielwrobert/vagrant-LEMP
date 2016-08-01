@@ -7,7 +7,7 @@ sudo apt-get update > /dev/null
 
 # Git
 echo "Installing Git..."
-sudo apt-get install -y git-all > /dev/null
+sudo apt-get install -y git > /dev/null
 
 # Vim
 echo "Installing Vim..."
