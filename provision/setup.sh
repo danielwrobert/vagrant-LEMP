@@ -26,12 +26,10 @@ echo "Updating apt-get once more..."
 sudo apt-get update > /dev/null
 
 echo "Installing PHP..."
-#sudo apt-get install -y php5-common php5-dev php5-cli php5-fpm > /dev/null
-sudo apt-get install -y php5-fpm > /dev/null
+sudo apt-get install -y php5-common php5-dev php5-cli php5-fpm > /dev/null
 
 echo "Installing PHP extensions..."
-#sudo apt-get install -y curl php5-curl php5-gd php5-mcrypt php5-mysql > /dev/null
-sudo apt-get install -y curl php5-mysql > /dev/null
+sudo apt-get install -y curl php5-curl php5-gd php5-mcrypt php5-mysql > /dev/null
 
 # MySQL
 echo "Preparing MySQL..."
