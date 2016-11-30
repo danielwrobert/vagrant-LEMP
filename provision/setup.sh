@@ -5,6 +5,9 @@ echo "Provisioning virtual machine..."
 echo "Updating apt-get..."
 sudo apt-get update > /dev/null
 
+# Unzip
+sudo apt-get install -y unzip > /dev/null
+
 # Git
 echo "Installing Git..."
 sudo apt-get install -y git > /dev/null
@@ -26,7 +29,7 @@ echo "Updating apt-get once more..."
 sudo apt-get update > /dev/null
 
 echo "Installing PHP..."
-sudo apt-get install -y php7.0 php7.0-fpm > /dev/null
+sudo apt-get install -y php7.0 php7.0-fpm php7.0-mbstring > /dev/null
 
 echo "Installing PHP extensions..."
 sudo apt-get install -y curl php7.0-mysql > /dev/null
