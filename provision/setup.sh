@@ -29,7 +29,7 @@ echo "Updating apt-get once more..."
 sudo apt-get update > /dev/null
 
 echo "Installing PHP..."
-sudo apt-get install -y php7.0 php7.0-fpm php7.0-mbstring > /dev/null
+sudo apt-get install -y php7.0 php7.0-fpm php7.0-mbstring php7.0-xml > /dev/null
 
 echo "Installing PHP extensions..."
 sudo apt-get install -y curl php7.0-mysql > /dev/null
