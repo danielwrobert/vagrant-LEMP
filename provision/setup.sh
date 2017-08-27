@@ -41,7 +41,7 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password password roo
 debconf-set-selections <<< "mysql-server mysql-server/root_password_again password root"
 
 echo "Installing MySQL..."
-sudo apt-get install -y mysql-server > /dev/null
+sudo apt-get install -y mysql-server-5.6 > /dev/null
 
 # Nginx Config
 echo "Configuring Nginx..."
